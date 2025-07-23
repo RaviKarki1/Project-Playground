@@ -1,0 +1,49 @@
+jobbot/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   │   └── jobs_controller.py
+│   │   │   └── coverletter_controller.py
+│   │   ├── routes/
+│   │   │   └── jobs_routes.py
+│   │   │   └── coverletter_routes.py
+│   │   ├── middleware/
+│   │   │   └── cors_middleware.py
+│   │   ├── services/
+│   │   │   └── openai_service.py
+│   │   │   └── resume_parser.py
+│   │   │   └── scraper_seek.py
+│   │   ├── utils/
+│   │   │   └── db.py
+│   │   │   └── helpers.py
+│   │   ├── app.py
+│   │   └── config.py
+│   ├── .env
+│   ├── requirements.txt
+│   └── README.md
+
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── JobCard.jsx
+│   │   │   └── CoverLetterModal.jsx
+│   │   ├── pages/
+│   │   │   └── JobListPage.jsx
+│   │   │   └── UploadResumePage.jsx
+│   │   ├── routes/
+│   │   │   └── jobs.routes.js
+│   │   │   └── coverletter.routes.js
+│   │   ├── controllers/
+│   │   │   └── jobs.controller.js
+│   │   │   └── coverletter.controller.js
+│   │   ├── utils/
+│   │   │   └── api.js
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── public/
+│   ├── .env
+│   ├── package.json
+│   └── README.md
+
+├── README.md
+└── .gitignore

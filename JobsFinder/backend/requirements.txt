@@ -1,0 +1,13 @@
+flask
+flask-cors
+openai
+requests
+beautifulsoup4
+selenium
+python-dotenv
+pymongo
+pdfminer.six
+python-docx
+nltk
+scikit-learn
+tiktoken
